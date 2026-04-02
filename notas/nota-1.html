@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nota de exemplo — André Rosemberg</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header>
+  <a class="site-title" href="../index.html">André Rosemberg</a>
+  <nav>
+    <a href="../index.html">Início</a>
+    <a href="../textos.html">Textos</a>
+    <a href="../notas.html" class="ativo">Notas</a>
+    <a href="../contato.html">Contato</a>
+  </nav>
+</header>
+
+<main>
+  <a class="voltar" href="../notas.html">← Notas</a>
+
+  <div class="nota-cabecalho">
+    <h1 class="nota-titulo">Nota de exemplo — edite este texto</h1>
+    <p class="nota-data">Janeiro de 2026</p>
+  </div>
+
+  <div class="nota-corpo">
+    <p>
+      Este é o corpo da nota. Substitua este parágrafo pelo seu texto.
+      Você pode escrever quantos parágrafos quiser, adicionar subtítulos
+      e formatar o conteúdo conforme necessário.
+    </p>
+    <p>
+      Para criar uma nova nota, duplique este arquivo, renomeie-o
+      (ex: <code>nota-2.html</code>) e edite o título, a data e o
+      conteúdo. Depois adicione um link para ela na página
+      <code>notas.html</code>.
+    </p>
+  </div>
+</main>
+
+<footer>
+  © <span id="ano"></span> André Rosemberg
+</footer>
+
+<script>document.getElementById('ano').textContent = new Date().getFullYear();</script>
+</body>
+</html>
