@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>André Rosemberg</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <a class="site-title" href="index.html">André Rosemberg</a>
+  <nav>
+    <a href="index.html" class="ativo">Início</a>
+    <a href="textos.html">Textos</a>
+    <a href="notas.html">Notas</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+</header>
+
+<main>
+  <h1 class="inicio-nome">André Rosemberg</h1>
+  <p class="inicio-titulo">Historiador &amp; Escritor</p>
+
+  <p class="inicio-intro">
+    Pesquiso e escrevo sobre história do Brasil, com ênfase nos
+    séculos XIX e XX. Este site reúne meus textos publicados e
+    notas de pesquisa.
+  </p>
+
+  <hr class="divisor">
+
+  <p class="secao-label">Notas recentes</p>
+  <ul class="lista">
+    <li>
+      <a class="lista-titulo" href="notas/nota-1.html">Nota de exemplo — edite este texto</a>
+      <span class="lista-meta">Janeiro de 2026</span>
+    </li>
+  </ul>
+
+  <hr class="divisor">
+
+  <p class="secao-label">Textos recentes</p>
+  <ul class="lista">
+    <li>
+      <span class="lista-titulo">Título do artigo ou capítulo</span>
+      <span class="lista-meta">Nome da revista ou livro, 2025</span>
+    </li>
+  </ul>
+</main>
+
+<footer>
+  © <span id="ano"></span> André Rosemberg
+</footer>
+
+<script>document.getElementById('ano').textContent = new Date().getFullYear();</script>
+</body>
+</html>
