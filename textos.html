@@ -1,64 +1,69 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Textos — André Rosemberg</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
-<header>
-  <a class="site-title" href="index.html">André Rosemberg</a>
-  <nav>
-    <a href="index.html">Início</a>
-    <a href="textos.html" class="ativo">Textos</a>
-    <a href="notas.html">Notas</a>
-    <a href="contato.html">Contato</a>
-  </nav>
-</header>
+  <!DOCTYPE html>
+  <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textos — André Rosemberg</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
 
-<main>
-  <h1 class="page-titulo">Textos publicados</h1>
-  <p class="page-subtitulo">Artigos, capítulos e livros</p>
+  <header>
+    <a class="site-title" href="index.html">André Rosemberg</a>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="textos.html" class="ativo">Textos</a>
+      <a href="notas.html">Notas</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
 
-  <p class="secao-label">Livros</p>
-  <ul class="lista">
-    <li>
-      <span class="lista-titulo">Título do livro</span>
-      <span class="lista-meta">Editora, Cidade, Ano</span>
-    </li>
-  </ul>
+  <main>
+    <h1 class="page-titulo">Textos publicados</h1>
+    <p class="page-subtitulo">Artigos, capítulos e livros</p>
 
-  <hr class="divisor">
+    <p class="secao-label">Livros</p>
+    <ul class="lista">
+      <li>
+        <span class="lista-titulo">Diásporas <span style="font-weight:normal; font-style:italic;">(no
+  prelo)</span></span>
+        <span class="lista-meta">
+          <a href="diasporas_prologo.pdf" target="_blank">Ler o prólogo</a>
+        </span>
+      </li>
+    </ul>
 
-  <p class="secao-label">Artigos</p>
-  <ul class="lista">
-    <li>
-      <a class="lista-titulo" href="#" target="_blank">Título do artigo</a>
-      <span class="lista-meta"><em>Nome da Revista</em>, vol. X, n. X, Ano</span>
-    </li>
-    <li>
-      <a class="lista-titulo" href="#" target="_blank">Título do artigo</a>
-      <span class="lista-meta"><em>Nome da Revista</em>, vol. X, n. X, Ano</span>
-    </li>
-  </ul>
+    <hr class="divisor">
 
-  <hr class="divisor">
+    <p class="secao-label">Artigos</p>
+    <ul class="lista">
+      <li>
+        <a class="lista-titulo" href="#" target="_blank">Título do artigo</a>
+        <span class="lista-meta"><em>Nome da Revista</em>, vol. X, n. X, Ano</span>
+      </li>
+      <li>
+        <a class="lista-titulo" href="#" target="_blank">Título do artigo</a>
+        <span class="lista-meta"><em>Nome da Revista</em>, vol. X, n. X, Ano</span>
+      </li>
+    </ul>
 
-  <p class="secao-label">Capítulos de livros</p>
-  <ul class="lista">
-    <li>
-      <span class="lista-titulo">Título do capítulo</span>
-      <span class="lista-meta">In: Nome do Organizador (org.). <em>Título do livro</em>. Editora, Ano, p. XX–XX.</span>
-    </li>
-  </ul>
-</main>
+    <hr class="divisor">
 
-<footer>
-  © <span id="ano"></span> André Rosemberg
-</footer>
+    <p class="secao-label">Capítulos de livros</p>
+    <ul class="lista">
+      <li>
+        <span class="lista-titulo">Título do capítulo</span>
+        <span class="lista-meta">In: Nome do Organizador (org.). <em>Título do livro</em>. Editora, Ano, p.
+  XX–XX.</span>
+      </li>
+    </ul>
+  </main>
 
-<script>document.getElementById('ano').textContent = new Date().getFullYear();</script>
-</body>
-</html>
+  <footer>
+    © <span id="ano"></span> André Rosemberg
+  </footer>
+
+  <script>document.getElementById('ano').textContent = new Date().getFullYear();</script>
+  </body>
+  </html>
